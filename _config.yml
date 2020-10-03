@@ -103,4 +103,7 @@ theme: Diaspora
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: 'git'
+  repo:
+     github: https://gitub.com/yusux/yusux.github.io.git
+  branch: master
