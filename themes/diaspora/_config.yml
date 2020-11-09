@@ -2,7 +2,7 @@
 menu:
   首页: /
   博客(未实装): http://blog.yusux.xyz
-  nas(不定期开启): https://nas.yusux.xyz 
+  nas(目前已关闭): https://nas.yusux.xyz 
   nas(ipv6) : http://ipv6-nas.yusux.xyz
   关于: /about
 
@@ -46,7 +46,7 @@ hitokoto: true
 # 链接(可选:facebook,twitter,github,wechat,email)
 links:
     github: https://github.com/Yusux
-    email: mailto:xxxx@gmail.com
+    email: mailto: KaguraMao@foxmail.com
   
 # 备案
 beian: 
@@ -65,6 +65,8 @@ gitalk:
     enable: true
     # 是否自动展开评论框
     autoExpand: false
+    # ID
+    githubID: Yusux
     # 应用编号
     clientID: 'fbce40f9ad5282294e9c'
     # 应用秘钥
