@@ -183,6 +183,7 @@ h1.title {font-size:30px;color:#333;line-height:1.3;position:relative;font-weigh
 .icon-email:before{content:"\e62d"}
 .icon-like:before{content:"\e602"}
 .icon-left:before{content:"\e604"}
+.icon-search:before{content:"\e601"}
 
 /* tags style  */
 .post-tags-list {margin-top:10px;display:table;}

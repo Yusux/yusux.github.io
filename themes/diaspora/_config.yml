@@ -1,10 +1,12 @@
 # 头部菜单，title: link
 menu:
   首页: /
-  博客(未实装): http://blog.yusux.xyz
-  nas(目前已关闭): https://nas.yusux.xyz 
-  nas(ipv6) : http://ipv6-nas.yusux.xyz
   关于: /about
+  分类: /categories
+  标签: /tags
+  博客(未制作迁移): http://blog.yusux.xyz
+  nas(目前已关闭): https://nas.yusux.xyz
+  nas(ipv6) : http://ipv6-nas.yusux.xyz
 
 # 是否显示目录
 TOC: false
@@ -38,7 +40,7 @@ scrollbar: true
 # 本地搜索,请将索引文件放在网站根目录,或修改主题js文件的path值
 local_search:
     # 是否启用
-    enable: false
+    enable: true
 
 # 是否显示 一言(hitokoto)
 hitokoto: true
@@ -46,7 +48,7 @@ hitokoto: true
 # 链接(可选:facebook,twitter,github,wechat,email)
 links:
     github: https://github.com/Yusux
-    email: mailto: KaguraMao@foxmail.com
+    email: mailto:KaguraMao@foxmail.com
   
 # 备案
 beian: 
@@ -93,3 +95,9 @@ favicon: /img/favicon.png
 
 # rss文件
 rss: atom.xml
+
+# search:
+path: search.xml
+field: all
+format: html
+limit: 10000
