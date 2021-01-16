@@ -105,5 +105,5 @@ theme: Diaspora
 deploy:
   type: 'git'
   repo:
-     github: https://github.com/Yusux/yusux.github.io.git
+     github: https://gitub.com/yusux/yusux.github.io.git
   branch: master
