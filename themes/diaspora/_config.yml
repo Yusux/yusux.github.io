@@ -1,9 +1,10 @@
 # 头部菜单，title: link
 menu:
   首页: /
-  博客(未实装): http://blog.yusux.xyz
-  nas(不定期开启): https://nas.yusux.xyz 
-  nas(ipv6) : http://ipv6-nas.yusux.xyz
+  博客[未实装]: http://blog.yusux.xyz
+  nas[跪了]: https://nas.yusux.xyz 
+  苏轩盘: https://pan.yusux.xyz
+  苏轩盘[上传]: https://upload-pan.yusux.xyz
   关于: /about
 
 # 是否显示目录
@@ -46,7 +47,7 @@ hitokoto: true
 # 链接(可选:facebook,twitter,github,wechat,email)
 links:
     github: https://github.com/Yusux
-    email: mailto:xxxx@gmail.com
+    email: mailto:KaguraMao@foxmail.com
   
 # 备案
 beian: 
