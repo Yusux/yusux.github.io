@@ -1,4 +1,3 @@
-
 theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'light' : 'dark';
 function themeChange() {
     theme = theme == 'dark' ? 'light' : 'dark';
@@ -28,10 +27,3 @@ $("a").hover(
         }
     }
 );
-
-var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-var tooltipList = tooltipTriggerList.map(
-    function (tooltipTriggerEl) {
-        return new bootstrap.Tooltip(tooltipTriggerEl)
-    }
-)
